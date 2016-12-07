@@ -66,13 +66,13 @@ summer() {
 winter() {
 
 	case "$hour" in
-		5|6 )
+		05|06 )
 			backgroundToUse="$background01"
 		;;
-		7|8 )
+		07|08 )
 			backgroundToUse="$background02"
 		;;
-		9|10 )
+		09|10 )
 			backgroundToUse="$background03"
 		;;
 		11 )
@@ -96,10 +96,10 @@ winter() {
 		17|18|19|20 )
 			backgroundToUse="$background10"
 		;;
-		21|22|23|0 )
+		21|22|23|00 )
 			backgroundToUse="$background11"
 		;;
-		1|2|3|4 )
+		01|02|03|04 )
 			backgroundToUse="$background12"
 		;;
 	esac
@@ -108,11 +108,11 @@ winter() {
 
 case "$month" in
 
-	[1-3]|1[0-2] )
+	0[1-3]|1[0-2] )
 		winter
 	;;
 
-	[4-9] )
+	0[4-9] )
 		summer
 	;;
 
