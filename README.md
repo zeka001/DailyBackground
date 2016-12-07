@@ -2,5 +2,5 @@
 ![image](https://raw.githubusercontent.com/zeka001/DailyBackground/master/images/mix.png)
 ## How to set up
 1. Clone the repo
-2. Run ```cd /etc/cron.hourly/```
-3. Run ```sudo ln -s /path/to/the/repo/background-changer.sh```
+2. Run ```crontab -e```
+3. Add ```0 * * * * /home/user/DailyBackground/background-changer.sh``` Change the path to your current one
