@@ -118,4 +118,4 @@ case "$month" in
 
 esac
 
-DISPLAY=:0 gsettings set org.gnome.desktop.background picture-uri "$backgroundToUse"
+DISPLAY=:0 gsettings set org.cinnamon.desktop.background picture-uri "$backgroundToUse"
